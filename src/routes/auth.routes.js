@@ -17,4 +17,8 @@ authRouter.post('/register', authController.registerUserController);
  */
 authRouter.post('/login', authController.loginUserController);
 
+/**
+ * @route GET /api/auth/logout
+ */
+
 module.exports = authRouter;
